@@ -1,4 +1,4 @@
-﻿using desafio_ruby_on_rails.Models;
+﻿using desafio_dev.Models;
 using Microsoft.EntityFrameworkCore;  
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 
 
-namespace desafio_ruby_on_rails.Migrations
+namespace desafio_dev.Migrations
 {
     public class ConectionSQLite : DbContext
     {
@@ -21,7 +21,7 @@ namespace desafio_ruby_on_rails.Migrations
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuild)
         {
-            optionsBuild.UseSqlite("Filename=../db_dados.sqlite"); 
+            optionsBuild.UseSqlite("Filename=./db_dados.sqlite"); 
 
         }
     }

@@ -3,9 +3,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using desafio_ruby_on_rails.Migrations;
+using desafio_dev.Migrations;
 
-namespace desafio_ruby_on_rails.Migrations
+namespace desafio_dev.Migrations
 {
     [DbContext(typeof(ConectionSQLite))]
     partial class ConectionSQLiteModelSnapshot : ModelSnapshot
@@ -14,9 +14,9 @@ namespace desafio_ruby_on_rails.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.3");
+                .HasAnnotation("ProductVersion", "5.0.7");
 
-            modelBuilder.Entity("desafio_ruby_on_rails.Models.Cnab", b =>
+            modelBuilder.Entity("desafio_dev.Models.Cnab", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -28,13 +28,10 @@ namespace desafio_ruby_on_rails.Migrations
                     b.Property<string>("Cpf")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Data")
+                    b.Property<DateTime>("DataHora")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("DonoLoja")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Hora")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("NomeLoja")
@@ -56,7 +53,7 @@ namespace desafio_ruby_on_rails.Migrations
                     b.ToTable("Cnab");
                 });
 
-            modelBuilder.Entity("desafio_ruby_on_rails.Models.Transacao", b =>
+            modelBuilder.Entity("desafio_dev.Models.Transacao", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -70,9 +67,9 @@ namespace desafio_ruby_on_rails.Migrations
                     b.ToTable("Transacao");
                 });
 
-            modelBuilder.Entity("desafio_ruby_on_rails.Models.Cnab", b =>
+            modelBuilder.Entity("desafio_dev.Models.Cnab", b =>
                 {
-                    b.HasOne("desafio_ruby_on_rails.Models.Transacao", "Transacao")
+                    b.HasOne("desafio_dev.Models.Transacao", "Transacao")
                         .WithMany()
                         .HasForeignKey("TransacaoId")
                         .OnDelete(DeleteBehavior.Cascade)

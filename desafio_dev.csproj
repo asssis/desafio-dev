@@ -2,10 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>desafio_ruby_on_rails</RootNamespace>
+    <RootNamespace>desafio_dev</RootNamespace>
   </PropertyGroup>
   <ItemGroup>  
-   <PackageReference Include="contentful.csharp" Version="5.0.4" /> 
+   <PackageReference Include="contentful.csharp" Version="5.0.4" />  
+   <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
+     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+     <PrivateAssets>all</PrivateAssets>
+   </PackageReference> 
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.3">

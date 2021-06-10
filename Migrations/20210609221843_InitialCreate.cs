@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace desafio_ruby_on_rails.Migrations
+namespace desafio_dev.Migrations
 {
-    public partial class TesteMigration : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -28,11 +28,10 @@ namespace desafio_ruby_on_rails.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     TransacaoId = table.Column<int>(type: "INTEGER", nullable: false),
                     Tipo = table.Column<int>(type: "INTEGER", nullable: false),
-                    Data = table.Column<string>(type: "TEXT", nullable: true),
                     Valor = table.Column<double>(type: "REAL", nullable: false),
                     Cpf = table.Column<string>(type: "TEXT", nullable: true),
                     Cartao = table.Column<string>(type: "TEXT", nullable: true),
-                    Hora = table.Column<string>(type: "TEXT", nullable: true),
+                    DataHora = table.Column<DateTime>(type: "TEXT", nullable: false),
                     DonoLoja = table.Column<string>(type: "TEXT", nullable: true),
                     NomeLoja = table.Column<string>(type: "TEXT", nullable: true)
                 },

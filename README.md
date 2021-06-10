@@ -1,3 +1,20 @@
+# Instruções
+Baixar o arquivo para fazer upload [arquivo CNAB](https://github.com/ByCodersTec/desafio-ruby-on-rails/blob/
+
+# Instruções para rodar o projeto
+
+* Precisa ter o docker instalado
+* chmod +777 start.sh
+* ./start.sh
+
+# Teve alguns pontos que ficou uma duvida, então conforme o meu entendimento
+
+* O teste falou sobre Layout, e ao mesmo tempo API, então fiz um upload onde pode ser colocar o arquivo CNAB.
+* Eu não usei o docker compose, apenas o docker file com um script SH
+* Os campos correspondentes pareciam não está de acordo com a informação passada, então eu fiz algumas alterações na ordem do CNAB
+* Fiz um deparse, o nome esta como TipoTransacao
+* Usei o Sqlite, pois 
+
 # Desafio programação - para vaga desenvolvedor
 
 Por favor leiam este documento do começo ao fim, com muita atenção.

@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/desafio-ruby-on-rails.csproj",
+  "FilePath": "/home/assis/estudo/backuop/desafio_dev/desafio_dev.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,41 +15616,46 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "desafio_ruby_on_rails",
+  "RootNamespace": "desafio_dev",
   "Documents": [
     {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/Home/Index.cshtml",
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/_ViewStart.cshtml",
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/assis/estudo/desafio-ruby-on-rails/Views/Home/New.cshtml",
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/Home/Visualizar.cshtml",
+      "TargetPath": "Views\\Home\\Visualizar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/Home/New.cshtml",
       "TargetPath": "Views\\Home\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/assis/estudo/backuop/desafio_dev/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

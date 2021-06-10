@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace desafio_ruby_on_rails
+namespace desafio_dev
 {
     public class Program
     {

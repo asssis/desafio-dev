@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/assis/estudo/desafio-ruby-on-rails/desafio-ruby-on-rails.csproj": {}
+    "/home/assis/estudo/backuop/desafio_dev/desafio-ruby-on-rails.csproj": {}
   },
   "projects": {
-    "/home/assis/estudo/desafio-ruby-on-rails/desafio-ruby-on-rails.csproj": {
+    "/home/assis/estudo/backuop/desafio_dev/desafio-ruby-on-rails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/assis/estudo/desafio-ruby-on-rails/desafio-ruby-on-rails.csproj",
+        "projectUniqueName": "/home/assis/estudo/backuop/desafio_dev/desafio-ruby-on-rails.csproj",
         "projectName": "desafio-ruby-on-rails",
-        "projectPath": "/home/assis/estudo/desafio-ruby-on-rails/desafio-ruby-on-rails.csproj",
+        "projectPath": "/home/assis/estudo/backuop/desafio_dev/desafio-ruby-on-rails.csproj",
         "packagesPath": "/home/assis/.nuget/packages/",
-        "outputPath": "/home/assis/estudo/desafio-ruby-on-rails/obj/",
+        "outputPath": "/home/assis/estudo/backuop/desafio_dev/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -41,6 +41,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.3, )"

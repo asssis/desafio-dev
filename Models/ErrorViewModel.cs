@@ -1,6 +1,6 @@
 using System;
 
-namespace desafio_ruby_on_rails.Models
+namespace desafio_dev.Models
 {
     public class ErrorViewModel
     {

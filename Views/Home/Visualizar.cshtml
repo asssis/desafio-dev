@@ -1,0 +1,84 @@
+@model IEnumerable<desafio_dev.Models.Cnab>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="New">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th> 
+
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th> 
+
+            <th>
+                Data
+            </th> 
+            <th>
+                Hora
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>  
+            <th>
+                @Html.DisplayNameFor(model => model.Cpf)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.Cartao)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.DonoLoja)
+            </th> 
+            <th>
+                @Html.DisplayNameFor(model => model.NomeLoja)
+            </th> 
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoTransacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+
+            <td>  
+                @Html.DisplayFor(modelItem => item.Hora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cartao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DonoLoja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeLoja)
+            </td> 
+        </tr>
+}
+    </tbody>
+</table>
+
+
+         
