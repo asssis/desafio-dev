@@ -13,7 +13,9 @@ Baixar o arquivo para fazer upload [arquivo CNAB](https://github.com/ByCodersTec
 * Eu não usei o docker compose, apenas o docker file com um script SH
 * Os campos correspondentes pareciam não está de acordo com a informação passada, então eu fiz algumas alterações na ordem do CNAB
 * Fiz um deparse, o nome esta como TipoTransacao
-* Usei o Sqlite, pois 
+* Usei o Sqlite pela facilidade, mas como o entity possibilita trabalhar com varios bancos, então há facilidade para mudar para os bancos especificados
+
+
 
 # Desafio programação - para vaga desenvolvedor
 
